@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    
+</head>
+<body>
+    <header id="header">
+        <h1>javascript Calculator</h1>
+        <h3>do not divide by 0</h3>
+    </header>
+
+    <button id="message" class="remove">reset dumbass</button>
+
+    <section id="container">
+        <div class="screen">
+            <button id="clear" class="clear">C</button>
+            <span id="display" class="display">0</span>
+        </div>
+
+        <div class="keys">
+            <div class="groups">
+                <button class="num" data-num="9">9</button>
+                <button class="num" data-num="8">8</button>
+                <button class="num" data-num="7">7</button>
+                <button class="ops" data-ops="plus">+</button>
+            </div>
+
+            <div class="groups">
+                <button class="num" data-num="6">6</button>
+                <button class="num" data-num="5">5</button>
+                <button class="num" data-num="4">4</button>
+                <button class="ops" data-ops="minus">-</button>
+            </div>
+
+            <div class="groups">
+                <button class="num" data-num="3">3</button>
+                <button class="num" data-num="2">2</button>
+                <button class="num" data-num="1">1</button>
+                <button class="ops" data-ops="multiply">*</button>
+            </div>
+
+            <div class="groups">
+                <button class="num" data-num="0">0</button>
+                <button class="num" data-num=".">.</button>
+                <button id="equals" class="equals" data-result="">=</button>
+                <button class="ops" data-ops="divide">/</button>
+            </div>
+
+        </div>
+
+        
+        
+
+    </section>
+
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

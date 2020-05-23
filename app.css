@@ -1,0 +1,70 @@
+html {
+    background: #100a1c;
+    background-attachment: fixed;
+    color: #6cacc5;
+  }
+body{
+    margin: 0;
+}
+#container{
+    width: 270px;
+    margin: 5em auto;
+}
+#display{
+    float: right;
+    text-align: right;
+    height: 1em;
+    width: 9em;
+    line-height: 2em;
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+    color: #c97874;
+}
+#message{
+    position: absolute;
+    left: 44%;
+    top: 50%;
+    padding: 15px;
+    font-weight: 700;
+    color:#c97874d0;
+    background: #c978745d;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+#message:hover{
+    background: #c978746e;
+}
+header{
+    font-size: .7rem;
+    text-transform: uppercase;
+    margin: 5rem;
+    text-align: center;
+}
+header h3{
+    color: #c97874d0;
+}
+#container button{
+    width: 2em;
+    height: 2em;
+    font-size: 1.5rem;
+    outline: none;
+    border: 0;
+    background: rgba(42,50,113, .28);
+    color: #6cacc5;
+}
+#container button:hover {
+    background: #201e40;
+  }
+.groups{
+    margin-top: 20px;
+}
+.groups button{
+    margin-right: 20px;
+}
+.groups button:last-of-type{
+    margin-right: 0;
+}
+.remove{
+    display: none;
+}
