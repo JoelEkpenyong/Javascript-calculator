@@ -22,8 +22,9 @@ body{
 }
 #message{
     position: absolute;
-    left: 44%;
+    left: 50%;
     top: 50%;
+    transform: translate(-50%, -50%);
     padding: 15px;
     font-weight: 700;
     color:#c97874d0;
